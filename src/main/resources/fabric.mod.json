@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cursedspeedrun",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Cursed Speedrun",
+  "description": "Never gonna give you up",
   "authors": [
-    "Me!"
+    "AnonymousRand"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/AnonymousRand/1.16.1-Cursed-Speedrun"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cursedspeedrun/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.anonymousrand.cursedspeedrun.CursedSpeedrun"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "cursedspeedrun.mixins.json"
   ],
 
   "depends": {

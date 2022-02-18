@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.anonymousrand.cursedspeedrun.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinAbstractFireBlock",
+    "MixinArrowEntity",
+    "MixinBedBlock",
+    "MixinBucketItem",
+    "MixinFlintAndSteelItem",
+    "MixinPiglin",
+    "MixinServerPlayerEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
