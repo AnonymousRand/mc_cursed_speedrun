@@ -1,11 +1,11 @@
 # IntelliJ
 out/
 
-# gradle
+# Gradle
 .gradle/
 build/
 out/
 classes/
 
-# fabric
+# Fabric
 run/
